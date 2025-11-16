@@ -8,9 +8,9 @@
 Description.
 
     While working on my master's thesis in the year 2025 it became clear to me
-that for the quick-and-dirty (basic) simulations I run on a daibly basis I
-always need the same numerical quantities. Therefore I descided to write a
-small software library to avoid writing the same computer code over and over.
+that for the quick-and-dirty (basic) simulations I run on a daily basis I always
+need the same numerical quantities. Therefore I descided to write a small
+software library to avoid writing the same computer code over and over.
     To implement this library I decided to use the scipting language Python,
 since it offers an easy to use interface to well-tested and fast FORTRAN, etc.
 code. Unfortunately I had problems with ready-to-use packages like QuTiP
