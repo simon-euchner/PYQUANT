@@ -1701,9 +1701,12 @@ class QOPS:
     QOPS: Quantum Optical Phase Space
 
     Class of methods to work with quantum optical phase space quantities.
+
+    Attributes
+    ----------
     """
 
-    def WIGNER_FOCK(rho: "QOBJ",
+    def wigner_fock(rho: "QOBJ",
                     alpha: numpy.complex128) -> numpy.float64:
         """
         Wigner quasiprobability distribution for density matrix in Fock basis.
