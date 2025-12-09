@@ -860,11 +860,11 @@ class OQOBJ:
         if not dim1 and not dim2:
             return O
         elif not dim1:
-            return CQOBJ.tp([O, ONE(dim2)])
+            return OQOBJ.tp([O, CQOBJ.one(dim2)])
         elif not dim2:
-            return CQOBJ.tp([ONE(dim1), O])
+            return OQOBJ.tp([CQOBJ.one(dim1), O])
         else:
-            return CQOBJ.tp([ONE(dim1), O, ONE(dim2)])
+            return OQOBJ.tp([CQOBJ.one(dim1), O, CQOBJ.one(dim2)])
 
 class SPEC:
     """
